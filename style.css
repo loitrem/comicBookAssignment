@@ -1,0 +1,51 @@
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: lightblue;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.heading{
+    background-color: lightblue;
+    height: 40px;
+    padding: 25px;
+}
+
+.pictureCell{
+    width: 33%;
+    border: solid black;
+    position: relative;
+    margin: 10px;
+}
+
+.pic{
+    height: 100%;
+    width: 100%;
+}
+
+.textBlock{
+    height: 15%;
+    width: 50%;
+    background-color: white;
+    border: solid black;
+    bottom: 0;
+    position: absolute;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+
+.row{
+    display:flex;
+}
+
+
+
